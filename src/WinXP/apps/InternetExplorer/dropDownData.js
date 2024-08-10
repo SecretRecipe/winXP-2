@@ -1,4 +1,4 @@
-export const File = [
+const File = [
   {
     type: 'menu',
     text: 'New',
@@ -375,6 +375,7 @@ const View = [
     hotkey: 'F11',
   },
 ];
+
 const Favorites = [
   {
     type: 'item',
@@ -434,107 +435,18 @@ const Favorites = [
     symbol: 'ie-paper',
   },
 ];
-const Tools = [
-  {
-    type: 'menu',
-    position: {
-      left: 'calc(100% - 4px)',
-      top: '-3px',
-    },
-    text: 'Mail and News',
-    items: [
-      {
-        type: 'item',
-        text: 'Read Mail',
-      },
 
-      {
-        type: 'item',
-        text: 'New Message...',
-      },
-      {
-        type: 'item',
-        text: 'Send a Link...',
-      },
-      {
-        type: 'item',
-        text: 'Send Page...',
-      },
-      {
-        type: 'separator',
-      },
-      {
-        type: 'item',
-        text: 'Read News',
-      },
-    ],
-  },
-  {
-    type: 'menu',
-    position: {
-      left: 'calc(100% - 4px)',
-      top: '-3px',
-    },
-    text: 'Pop-up Blocker',
-    items: [
-      {
-        type: 'item',
-        text: 'Turn Off Pop-up Blocker',
-      },
-
-      {
-        type: 'item',
-        text: 'Pop-up Blocker Settings...',
-      },
-    ],
-  },
-  {
-    type: 'item',
-    text: 'Manage Add-ons...',
-  },
-  {
-    type: 'item',
-    text: 'Synchronize...',
-  },
-  {
-    type: 'item',
-    text: 'Windows Update',
-  },
-  {
-    type: 'separator',
-  },
-  {
-    type: 'item',
-    text: 'Windows Messenger',
-  },
-  {
-    type: 'item',
-    text: 'Diagnose Connection Problems...',
-  },
-  {
-    type: 'separator',
-  },
-  {
-    type: 'item',
-    text: 'Internet Options...',
-  },
-];
 const Help = [
   {
     type: 'item',
-    text: 'Contents and Index',
-  },
-  {
-    type: 'item',
-    text: 'Tip of the Day',
-  },
-  {
-    type: 'item',
-    text: 'For Netscape Users',
+    text: 'Content and Index',
   },
   {
     type: 'item',
     text: 'Online Support',
+  },
+  {
+    type: 'separator',
   },
   {
     type: 'item',
@@ -548,4 +460,5 @@ const Help = [
     text: 'About Internet Explorer',
   },
 ];
-export default { File, Edit, View, Favorites, Tools, Help };
+
+export default { File, Edit, View, Favorites, Help };
