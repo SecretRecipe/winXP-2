@@ -1,4 +1,4 @@
-export const Game = [
+const Game = [
   {
     type: 'item',
     text: 'New',
@@ -78,4 +78,5 @@ const Help = [
     text: 'About Minesweeper',
   },
 ];
+
 export default { Game, Help };
