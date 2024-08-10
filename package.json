@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "now-build": "react-scripts build",
+    "now-build": "CI= npm run build",
     "lint": "eslint src"
   },
   "eslintConfig": {
